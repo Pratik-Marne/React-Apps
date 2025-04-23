@@ -36,7 +36,7 @@ function App() {
 
   return (
     <>
-     <h1 className='text-5xl font-bold'>Counter:{counter} </h1>
+     <h1 className='font-bold'>Counter:{counter} </h1>
      <button onClick={handleStart}>Start</button>
      <button onClick={handleStop}>Stop</button>
     </>
