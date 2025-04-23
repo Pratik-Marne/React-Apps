@@ -2,8 +2,11 @@
 
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
+// import HistoryCounter from './components/HistoryCounter';
 
 function App() {
+
+  
   
   const [counter, setCounter] = useState(0);
   const [isRunning,setIsRunning] = useState(false)
@@ -36,6 +39,7 @@ function App() {
 
   return (
     <>
+    {/* <HistoryCounter /> */}
      <h1 className='font-bold'>Counter:{counter} </h1>
      <button onClick={handleStart}>Start</button>
      <button onClick={handleStop}>Stop</button>
